@@ -1,8 +1,8 @@
-# How to hide checkboxes in a GridCheckBoxColumn of a row based on value of another column in WinForms DataGrid (SfDataGrid) ?
+# How to hide checkboxes in a GridCheckBoxColumn in WinForms DataGrid?
 
-This sample illustrates how to hide checkboxes in a GridCheckBoxColumn of a row based on value of another column.
+This sample illustrates how to hide checkboxes in a GridCheckBoxColumn of a row based on value of another column in DataGrid.
 
-In SfDataGrid GridCheckBoxColumn, checkbox will be displayed for all the cells by default. You can hide the checkbox for some specific cells in the GridCheckBoxColumn based on another column value in the same row by creating custom renderer for the checkbox column.
+In [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid) [GridCheckBoxColumn](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GridCheckBoxColumn.html), checkbox will be displayed for all the cells by default. You can hide the checkbox for some specific cells in the GridCheckBoxColumn based on another column value in the same row by creating custom renderer for the checkbox column. 
 
 ```C#
 public Form1()
@@ -29,7 +29,6 @@ public class CustomCheckBoxCellRenderer : GridCheckBoxCellRenderer
     }
 }
 ```
-
 ![HideCheckbox_Image](HideCheckbox_Image.png)
 
 ## Requirements to run the demo
